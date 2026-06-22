@@ -1,4 +1,4 @@
-name: ML4Accel2
+name: ML4Accel
 channels:
   - conda-forge
   - defaults
@@ -29,3 +29,4 @@ dependencies:
   - pip:
       - tensorflow
       - scikeras
+      - paysage

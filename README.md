@@ -4,7 +4,7 @@
 
 Instructions:
 
-~~0. Use linux~~
+0. ~~Use linux~~
 1. Install git, conda, jupyter
 2. Make a folder and cd into it, then git clone this repo
 ```
@@ -17,6 +17,8 @@ git clone https://github.com/andrew-koren/mlreview_notebooks.git
 conda env create -f environment.yml
 conda activate ML4Accel
 ```
+
+Additional info & data sets: [https://physics.bu.edu/~pankajm/MLnotebooks.html](https://physics.bu.edu/~pankajm/MLnotebooks.html).
 
 Original readme.md below:
 ----
