@@ -3,8 +3,15 @@
 "It works on my machine"
 
 Instructions:
+~~0. Use linux~~
 1. Install git, conda, jupyter
-2. build the conda environment:
+2. Make a folder and cd into it, then git clone this repo
+```
+mkdir ML4Accel
+cd ML4Accel
+git clone https://github.com/andrew-koren/mlreview_notebooks.git
+```
+3. build the conda environment:
 ```
 conda env create -f environment.yml
 conda activate ML4Accel
