@@ -2,7 +2,7 @@
 
 "It works on my machine"
 
-Instructions:
+Instructions: <br>
 ~~0. Use linux~~
 1. Install git, conda, jupyter
 2. Make a folder and cd into it, then git clone this repo
