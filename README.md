@@ -3,9 +3,8 @@
 "It works on my machine"
 
 Instructions:
-1. Use Linux
-2. Install git, conda, jupyter
-3. build the conda environment:
+1. Install git, conda, jupyter
+2. build the conda environment:
 ```
 conda env create -f environment.yml
 conda activate ML4Accel
