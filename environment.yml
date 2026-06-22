@@ -1,0 +1,31 @@
+name: ML4Accel2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+
+  # core ML / data
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+
+  # plotting
+  - matplotlib
+  - seaborn
+
+  # Jupyter
+  - ipykernel
+  - notebook
+
+  # PyTorch ecosystem (best from conda-forge or pytorch channel)
+  - pytorch
+  - torchvision
+  # - pytorch-cuda=12.1
+
+  # pip installs for more fragile ML libs
+  - pip
+  - pip:
+      - tensorflow
+      - scikeras
